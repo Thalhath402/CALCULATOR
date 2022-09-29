@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="main">
+    <div class="display">
+        <h3 id="screen"></h3>
+    </div>
+    <div class="dialpad">
+        <div>
+            <button id="ac" class="clr" onclick="ac()">AC</button>
+            <button class="opr"onclick="mod()">%</button>
+            <button id="div" class="opr" onclick="division()">/</button>
+        </div>
+        <div>
+            <button id="one" class="num" onclick="onee()">1</button>
+            <button id="two" class="num" onclick="to()">2</button>
+            <button id="three" class="num" onclick="three()">3</button>
+            <button id="mul" class="opr" onclick="multiple()">*</button>
+        </div>
+        <div>
+            <button id="four" class="num" onclick="fore()">4</button>
+            <button id="five" class="num" onclick="fiv()">5</button>
+            <button id="six" class="num" onclick="sics()">6</button>
+            <button id="min" class="opr" onclick="minus()">-</button>
+        </div>
+        <div>
+            <button id="seven" class="num" onclick="sevn()">7</button>
+            <button id="eight" class="num" onclick="eit()">8</button>
+            <button id="nine" class="num" onclick="nin()">9</button>
+            <button id="add" class="opr" onclick="plus()">+</button>
+        </div>
+        <div>
+            <button id="zero" class="zero" onclick="zeroo()">0</button>
+            <button id="dot" class="num" onclick="point()">.</button>
+            <button id="eql" class="opr" onclick="equal()">=</button>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
